@@ -1,0 +1,46 @@
+{
+  "article": [],
+  "blog": [],
+  "brand": [],
+  "collection": [],
+  "company": [],
+  "company_location": [],
+  "location": [],
+  "market": [],
+  "order": [],
+  "page": [],
+  "product": [
+    {
+      "key": "flower-color",
+      "namespace": "shopify",
+      "name": "Flower color",
+      "description": "Specifies the color of the flower, such as pink or multicolor",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "plant-characteristics",
+      "namespace": "shopify",
+      "name": "Plant characteristics",
+      "description": "Defines specific traits of plants, e.g. flowering, edible",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "plant-class",
+      "namespace": "shopify",
+      "name": "Plant class",
+      "description": "Classifies plants into specific taxonomic groups, e.g. liliopsida, brassicales",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    }
+  ],
+  "variant": [],
+  "shop": []
+}
